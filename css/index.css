@@ -239,6 +239,7 @@ footer nav a {
     
     display: flex;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 #second-section{
     display: flex;
@@ -260,4 +261,8 @@ footer nav a {
     border: dotted 1px gray;
     margin-bottom: 20px;
     
+    }
+    .first-content a{
+        text-decoration: none;
+        color: black;
     }
