@@ -245,11 +245,24 @@ footer nav a {
 #second-section{
     display: flex;
    justify-content: space-evenly;
-   
+   align-content: center;
+   align-items: center;
    flex-wrap: wrap;
    width: 120%;
-  
 }
+  .learn-more{
+   
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+   }
+  
+
 #second-section div{
    
     width: 50%;
@@ -266,4 +279,8 @@ footer nav a {
     .first-content a{
         text-decoration: none;
         color: black;
+    }
+    .lambda-black{
+        margin-bottom: 50px;
+        margin-right: 20px;
     }
